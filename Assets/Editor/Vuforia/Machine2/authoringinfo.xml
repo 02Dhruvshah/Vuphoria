@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QCARInfo>
+    <TargetSet version="3.4">
+        <AreaTarget version="5.1" bbox="-15.2425 -7.6889 -15.3079 21.6141 12.7008 110.1951" targetId="534749831fd047869d0d8d599f4d0bc2" name="Machine2" pathAuthoring="534749831fd047869d0d8d599f4d0bc2_authoring.glb" pathOcclusion="534749831fd047869d0d8d599f4d0bc2_occlusion.3dt" pathNavMesh="534749831fd047869d0d8d599f4d0bc2_navmesh.glb" cloudTarget="false" />
+    </TargetSet>
+</QCARInfo>
