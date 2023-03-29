@@ -179,7 +179,7 @@ PlayerSettings:
   StripUnusedMeshComponents: 0
   VertexChannelCompressionMask: 214
   iPhoneSdkVersion: 988
-  iOSTargetOSVersionString: 14.0
+  iOSTargetOSVersionString: 12.0
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 11.0
@@ -817,7 +817,9 @@ PlayerSettings:
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
     0: VUFORIA_ANDROID_SETTINGS
-    7: GAME4AUTOMATION;GAME4AUTOMATION_PROFESSIONAL
+    4: VUFORIA_IOS_SETTINGS
+    7: GAME4AUTOMATION;GAME4AUTOMATION_PROFESSIONAL;VUFORIA_ANDROID_SETTINGS
+    14: VUFORIA_WSA_SETTINGS
   additionalCompilerArguments: {}
   platformArchitecture:
     iPhone: 1
@@ -918,7 +920,7 @@ PlayerSettings:
       Appointments: False
       SystemManagement: False
       SpatialPerception: False
-      Microphone: False
+      Microphone: True
       SharedUserCertificates: False
       InputInjectionBrokered: False
       PicturesLibrary: False
@@ -931,10 +933,10 @@ PlayerSettings:
       PointOfService: False
       RecordedCallsFolder: False
       Contacts: False
+      Proximity: False
       InternetClient: True
       CodeGeneration: False
       BackgroundMediaPlayback: False
-      Proximity: False
   metroTargetDeviceFamilies:
     Desktop: False
     Holographic: False

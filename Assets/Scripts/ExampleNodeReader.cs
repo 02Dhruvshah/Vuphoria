@@ -56,6 +56,6 @@ public class ExampleNodeReader : MonoBehaviour
 
     private void Update()
     {
-        uiFeedbackTMP.text = "Factory machine " + factoryMachineID + " just registered " + nodeBeingMonitored + " as " + dataFromOPCUANode;
+        uiFeedbackTMP.text = "Cart: " + dataFromOPCUANode;
     }
 }
